@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url("../images/vertical-waves.png");
+    font-family: "Times New Roman", sans-serif;
+}
+
+header h1 {
+    text-align: center; }
+#nav_menu1 ul {
+    list-style: none;
+    position: relative;
+}
+#nav_menu1 ul li {
+    float: left;
+}
+#nav_menu1 ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu1 ul ul li {
+    float: none;
+}
+#nav_menu1 ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 192px;
+    padding: 0.7em 0;
+    background-color: black;
+    text-align: center;
+}
+#nav_menu1 ul li:hover > ul {
+    display: block; }
+#nav_menu1 > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#nav_menu1 ul li a.current {
+    background-color: grey;
+}
+#nav_menu1 ul li a:hover , #nav_menu1 ul li  a:focus {
+    background-color: limegreen;
+}
+body {
+    width: 960px;
+    background-color: lightgray;
+    margin: 15px auto;
+    border: 1px solid black;
+
+}
+main {
+    width: 800px;
+    height: 350px;
+    float: right;
+}
+main h2 {
+    text-align: center;
+}
+main p
+{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+main h3 {
+    text-align: center;
+    padding-top: 25px;
+}
+main a img {
+    padding-top: 10px;
+}
+main p img {
+    padding-top: 15px;
+}
+main h2 {
+    padding-top: 15px;
+}
+main div p  {
+    text-align: left;
+    padding-top: 55px;
+}
+aside {
+    width: 150px;
+    height: 350px;
+    float: left;
+    border-right:1px solid black ;
+}
+#nav_home a img{
+    width:100px;
+    height: 75px;
+    padding-left: 25px;
+    padding-top: 25px;
+    float: left;
+}
+footer {
+    clear: both;
+    border-top: 2px solid black;
+
+}
+footer p {
+     font-size: 60%;
+     padding: 0.5em 0 0 0.5em;
+ }
+
+
+/* Veni Vidi Vici */
